@@ -3567,16 +3567,18 @@ li.feature-2 {
     margin: 0;
     padding: 0;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 515.5px 363.75px;
+    /* background-attachment: fixed; */
+    background-size: 700px 500px;
     z-index: -1;
     background-position: 80% 38%;
     padding-top: 1px
 }
 
 .body {
-    height: 100vh;
-    background-color: #efeeee;
+    /* height: 100vh;
+    background-color: #84AF9B; */
+    background-image: linear-gradient(#8b9da9, #fff6e4);
+    box-shadow: inset 0 0 100px hsla(0, 0%, 0%, .3);
 }
 
 @media (max-width:860px) {
@@ -6500,6 +6502,12 @@ input[type=radio]:checked:before {
     display: block
 }
 
+.shade {
+    border-radius: 47px;
+    background: linear-gradient(225deg, #8cf5fd, #76ced4);
+    box-shadow: -16px 16px 31px #44777b, 16px -16px 31px #c2ffff;
+}
+
 .center-text {
     margin: auto;
     /* cursor: pointer; */
@@ -6508,26 +6516,16 @@ input[type=radio]:checked:before {
 }
 
 .glitch {
-    /* position: relative; */
-    color: rgb(64, 176, 204);
-    /* mix-blend-mode: lighten;
+    position: relative;
+    color: rgb(255, 255, 255);
+    mix-blend-mode: lighten;
     overflow: hidden;
-    white-space: nowrap */
+    white-space: nowrap
 }
 
 .glitch:before {
     content: attr(data-text);
     position: absolute;
-    /* 圆角属性 */
-    border-radius: 20px;
-    /* 盒子阴影 */
-    box-shadow: 18px 18px 30px rgba(0, 0, 0, 0.2), -18px -18px 30px rgba(255, 255, 255, 1);
-}
-
-.glitch:before {
-    /* left: -1px; */
-    text-shadow: slategrey;
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 rgba(255, 255, 255, 0.8), inset 18px 18px 30px rgba(0, 0, 0, 0.1), inset -18px -18px 30px rgba(255, 255, 255, 1);
 }
 
 @-webkit-keyframes glitch-loop-1 {
