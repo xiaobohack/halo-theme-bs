@@ -3703,6 +3703,8 @@ li.feature-2 {
     color: #2c3e50
 }
 
+
+/*
 .header-info {
     width: 63%;
     margin: auto;
@@ -3718,6 +3720,8 @@ li.feature-2 {
     white-space: nowrap
 }
 
+
+/*
 .header-info:before {
     position: absolute;
     left: 30%;
@@ -3743,7 +3747,7 @@ li.feature-2 {
     font-weight: 700;
     overflow: hidden;
     white-space: nowrap
-}
+}*/
 
 .top-social {
     height: 32px;
@@ -3769,20 +3773,52 @@ li.feature-2 {
     height: 32px;
     margin-bottom: -15px;
     margin-left: 10px;
-    list-style: none;
     display: inline-block
 }
 
 .top-social_v2 img {
     height: 35px;
     width: 35px;
-    padding: 6px;
     background: 0 0
 }
 
 .top-social_v2 li {
     float: left;
+    position: relative;
+    display: block;
+    color: white;
+    width: 64px;
+    height: 64px;
+    font-size: 36px;
+    text-align: center;
+    line-height: 66px;
+    border-radius: 50%;
+    background: #84AF9B;
+    transition: 0.6s;
     margin-right: 13px
+}
+
+.top-social_v2 li:hover {
+    text-shadow: 0 0 4px #25ccf7;
+}
+
+.top-social_v2 li::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background: #25ccf7;
+    transition: 0.6s;
+    transform: scale(0.8);
+    z-index: -1;
+}
+
+.top-social_v2 li:hover::before {
+    box-shadow: 0 0 14px 2px #25ccf7;
+    transform: scale(1.05);
 }
 
 .wechat {
