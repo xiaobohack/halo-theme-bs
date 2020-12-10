@@ -3568,17 +3568,17 @@ li.feature-2 {
     padding: 0;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
-    background-size: 700px 500px;
+    background-size: 515.5px 363.84px;
     z-index: -1;
     background-position: 80% 38%;
     padding-top: 1px
 }
 
 .body {
-    /* height: 100vh;
-    background-color: #84AF9B; */
-    background-image: linear-gradient(#8b9da9, #fff6e4);
-    box-shadow: inset 0 0 100px hsla(0, 0%, 0%, .3);
+    height: 100vh;
+    background-color: #84AF9B;
+    /*background-image: linear-gradient(#8b9da9, #fff6e4);
+    box-shadow: inset 0 0 100px hsla(0, 0%, 0%, .3);*/
 }
 
 @media (max-width:860px) {
@@ -3599,7 +3599,7 @@ li.feature-2 {
 
 .focusinfo {
     position: relative;
-    max-width: 800px;
+    max-width: 700px;
     padding: 0 10px;
     top: 40%;
     left: 20%;
@@ -6503,7 +6503,6 @@ input[type=radio]:checked:before {
 }
 
 .shade {
-    border-radius: 47px;
     background: linear-gradient(225deg, #8cf5fd, #76ced4);
     box-shadow: -16px 16px 31px #44777b, 16px -16px 31px #c2ffff;
 }
