@@ -22,9 +22,9 @@
 				<p><i class="fa fa-hand-o-right"></i>${(user.description)?default('这条说明是默认信息哦！在后台-个人资料-个人说明中进行修改')}<i class="fa fa-hand-o-left"></i></p>
 			</#if>
 			<div class="top-social_v2">
-			    <li id="bg-pre">
+			    <!--<li id="bg-pre">
             		<img class="flipx" src="${cdn_base_url!}/img/Sakura/images/next-b.svg">
-          		</li>
+          		</li>-->
 			<#if settings.wechat??>
 				<li class="wechat"><a href="#"><img src="${cdn_base_url!}/img/Sakura/images/sns/wechat.png"/></a>
 					<div class="wechatInner">
@@ -71,9 +71,9 @@
 			<#if settings.csdn??>
 				<li><a href="${settings.csdn!}" target="_blank" class="social-wangyiyun" title="CSDN"><img src="${cdn_base_url!}/img/Sakura/images/sns/csdn.png"/></a></li>
 			</#if>
-				<li id="bg-next">
+				<!--<li id="bg-next">
             		<img src="${cdn_base_url!}/img/Sakura/images/next-b.svg">
-          		</li>
+          		</li>-->
 	<#else >
 	<div class="focusinfo">
 		<#if settings.focus_tou == "avatar">
